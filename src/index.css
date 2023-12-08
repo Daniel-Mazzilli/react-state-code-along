@@ -3,3 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.dark,
+.light {
+  height: 100vh;
+}
+.dark {
+  background-color: indigo;
+  color: lightgoldenrodyellow;
+}
+
+.light {
+  background-color: aliceblue;
+  color: gray;
+}
