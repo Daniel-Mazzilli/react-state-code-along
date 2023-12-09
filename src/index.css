@@ -4,16 +4,57 @@
     box-sizing: border-box;
 }
 
+.app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .dark,
 .light {
   height: 100vh;
 }
 .dark {
   background-color: indigo;
-  color: lightgoldenrodyellow;
+  color: rgb(247, 193, 14);
+}
+
+.light h1 {
+    color: darkred;
+}
+
+.dark h1 {
+    color: rgb(228, 15, 192)
 }
 
 .light {
   background-color: aliceblue;
-  color: gray;
+  color: rgb(241, 24, 24);
+}
+
+button {
+    all: unset;
+    background-color: rgb(5, 176, 238);
+    color: rgb(9, 37, 59);
+    border-radius: 10px;
+    padding: 3px 6px;
+    border: 2px solid rgb(9, 37, 59);
+    margin: 10px 4px;
+    width: 200px;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
 }
